@@ -1,0 +1,172 @@
+/*General Stuff*/
+
+
+html {
+    font-family: "Rubik", Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: "Abril Fatface";
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+/* Headers */
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    length: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky; 
+    top:0;
+    background-color: black;
+}
+
+
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    color: seashell;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+
+nav li a:hover {
+    text-decoration: none;
+}
+
+
+/* General Main */
+
+main {
+    display: block;
+}
+
+/* Mission */
+
+.mission {
+    background-image: url("images/img-mission-background.jpg");
+    max-width: 1200px;
+    height: 700px;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.mission-statement {
+    /*border: 1px solid red;*/
+    background-color:rgba(0, 0, 0, .5);
+    padding: 5px 30px;
+    width: 100%;
+}
+
+/* Featured */
+
+.featured {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.featured-list {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-tea {
+    width: 300px;
+    padding-bottom: 8px;
+    margin: 20px 15px;
+}
+
+.featured-tea img {
+    width: 100%;
+    height: 200px;
+    height: auto;
+    border-radius: 3px;
+}
+
+.featured-tea p {
+    font-weight: bold;
+    line-height: 0;
+}
+
+/* Locations */
+.location {
+    background-image: url("images/img-locations-background.jpg");
+    max-width: 1200px;
+    min-height: 500px;
+    background-position: right;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.location-mid {
+    width: 100%;
+}
+
+.location-header {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color:rgba(0, 0, 0, .3);
+}
+
+.location-container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.location-card {
+    border: solid black 1px;
+    width: 300px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+/* Footer */
+footer {
+    border-top: seashell 1px solid;
+    padding: auto 20px;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+}
